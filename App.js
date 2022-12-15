@@ -1,10 +1,6 @@
-import MyComponent from "./MyComponent";
+import EventPractice2 from "./EventPractice2";
 const App = () => {
-  return (
-    <MyComponent name="React" favoriteNumber={1}>
-      리액트
-    </MyComponent>
-  );
+  return <EventPractice2 />;
 };
 
 export default App;
